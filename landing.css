@@ -329,26 +329,16 @@ footer section ul.column-4 button {
     padding: 20px 50px;
     display: grid;
     grid-template-columns: 1fr;
-    justify-items: end;
-    align-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.wrapper div.cryptowise p {
+    justify-self: end;
+}
+.wrapper div.attribution a {
+    color: white;
+}
+.wrapper div.attribution {
+    justify-self: center;
+}
 
 
 
