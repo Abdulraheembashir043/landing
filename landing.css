@@ -12,7 +12,7 @@ header, footer, main, section, article, aside, nav {
 
 /* ########## Navigation ########## */
 .nav-top {
-    padding: 10px 10px 0 10px;
+    padding: 30px 10px 0 10px;
 }
 .nav-top ul {
     list-style: none;
@@ -140,6 +140,8 @@ ul.nav-right li button {
 }
 div.reasons img {
     margin-bottom: 5px;
+    width: 90px;
+    height: 90px;
 }
 div.reasons div.sub-reason {
     padding: 5px;
@@ -192,9 +194,7 @@ div.reasons div.sub-reason h3 {
     border-radius: 50%;
     display: block;
     margin: 0 auto;
-}
-.fourth-section main div.testominy-write-up {
-    margin: 20px 0 0;
+    padding-bottom: 20px;
 }
 .fourth-section main div.testimony-write-up h3 {
     margin-top: 15px;
@@ -282,7 +282,7 @@ div.reasons div.sub-reason h3 {
     color: white;
 }
 footer {
-    padding: 30px;
+    padding: 50px 30px 30px;
     color: white;
 }
 footer ul {
@@ -326,18 +326,26 @@ footer section ul.column-4 button {
 }
 .wrapper div.cryptowise {
     border-top: 2px solid orange;   
-    padding: 20px 50px;
+    
     display: grid;
     grid-template-columns: 1fr;
 }
 .wrapper div.cryptowise p {
+    padding: 10px 50px;
     justify-self: end;
 }
 .wrapper div.attribution a {
     color: white;
 }
+.wrapper div.attribution a:hover {
+    color: white;
+    text-decoration: none;
+}
 .wrapper div.attribution {
-    justify-self: center;
+    margin: 20px 0;
+    font-size: .9em;
+    text-align: center;
+    padding: 0;
 }
 
 
@@ -438,6 +446,10 @@ footer section ul.column-4 button {
         grid-gap: 2em;
         margin: 50px auto;
     }
+    .third-section div.reasons img {
+        width: 120px;
+        height: 120px;
+    }
     div.reasons div.sub-reason h3 {
         margin-bottom: 15px;
     }
@@ -466,7 +478,6 @@ footer section ul.column-4 button {
         font-size: 5em;
     } 
     .fourth-section main div.testimony-write-up {
-        /* border: 1px solid red; */
         padding: 15px;
         margin: 20px 0 0;
         box-sizing: border-box;
@@ -536,6 +547,9 @@ footer section ul.column-4 button {
     }
     footer section ul.column-4 {
         align-self: center;
+    }
+    .wrapper div.attribution {
+        font-size: 1em;
     }
 
 }  /* ########## End of Media Query ########## */
